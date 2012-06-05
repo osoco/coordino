@@ -308,7 +308,7 @@
 		<?=$form->text('User.email', array('class' => 'big_input medium_input '));?><br/>		
 	<? } ?>
 	
-	<?$recaptcha->display_form('echo');?>
+	<?//$recaptcha->display_form('echo');?>
 	
 	<br/>
 	<?=$form->end('Answer');?>
